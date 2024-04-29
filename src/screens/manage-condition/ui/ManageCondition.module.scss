@@ -1,0 +1,6 @@
+.wrapper {
+	@apply flex flex-col gap-40;
+	> section:first-child {
+		@apply m-0 border-none;
+	}
+}

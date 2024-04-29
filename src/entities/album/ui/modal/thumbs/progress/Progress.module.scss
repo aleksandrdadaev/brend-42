@@ -1,0 +1,12 @@
+.wrapper {
+	@apply w-full p-10;
+}
+
+.progress {
+	@apply w-full bg-gray-200 h-6 rounded-10 #{!important};
+}
+
+.bar {
+	@apply w-0;
+	@apply bg-blue h-6 rounded-10  transition-all #{!important};
+}

@@ -1,0 +1,11 @@
+.list {
+	@apply grid grid-cols-6 laptop:grid-cols-2 mobile:grid-cols-1 gap-15 tablet:gap-10;
+}
+
+.photo {
+	@apply col-span-2 laptop:col-auto;
+}
+
+.video {
+	@apply my-10 tablet:my-5 col-span-3 laptop:col-auto;
+}

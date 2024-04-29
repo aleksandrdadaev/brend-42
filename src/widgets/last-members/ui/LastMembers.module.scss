@@ -1,0 +1,11 @@
+.wrapper {
+	@apply border-bottom flex-block;
+
+	.right {
+		@apply flex flex-col gap-30 w-full tablet:gap-20;
+
+		> button {
+			@apply tablet:self-end;
+		}
+	}
+}

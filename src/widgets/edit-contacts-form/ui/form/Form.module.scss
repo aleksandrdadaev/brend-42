@@ -1,0 +1,19 @@
+.form {
+	@apply flex flex-col gap-20;
+}
+
+.whatsapp {
+	@apply flex gap-20;
+
+	> label:first-child {
+		@apply w-fit;
+	}
+}
+
+.block {
+	@apply p-20 border rounded-10 flex flex-col gap-20;
+
+	> h3 {
+		@apply T3 font-bold;
+	}
+}

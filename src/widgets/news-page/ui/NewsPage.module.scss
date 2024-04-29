@@ -1,0 +1,19 @@
+.wrapper {
+	@apply flex-block tablet:gap-15;
+}
+
+.date {
+	@apply w-190 T4 shrink-0 tablet:w-auto tablet:T4-mobile;
+}
+
+.content {
+	@apply w-600 flex flex-col gap-25 laptop:w-460 tablet:gap-10 tablet:w-full;
+}
+
+.title {
+	@apply w-full H2 tablet:H2-mobile;
+}
+
+.text {
+	@apply w-full T3 whitespace-pre-line tablet:T3-mobile;
+}

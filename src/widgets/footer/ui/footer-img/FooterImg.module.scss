@@ -1,0 +1,15 @@
+.img {
+	@apply absolute w-full h-full top-0 left-0 -z-1 brightness-40;
+
+	> img {
+		@apply img-object-cover;
+	}
+}
+
+.gradient {
+	background: linear-gradient(
+		180deg,
+		rgba(203, 229, 252, 0.2) 0%,
+		#cbe5fc 100%
+	);
+}

@@ -1,0 +1,15 @@
+.imgWrapper {
+	@apply flex flex-col gap-5 items-center;
+}
+
+.img {
+	@apply relative w-full h-486;
+
+	> img {
+		@apply img-object-cover;
+	}
+}
+
+.caption {
+	@apply T4;
+}

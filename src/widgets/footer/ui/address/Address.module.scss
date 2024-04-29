@@ -1,0 +1,11 @@
+.wrapper {
+	@apply flex flex-col gap-5;
+}
+
+.address {
+	@apply T4 tablet:T4-mobile;
+}
+
+.container {
+	@apply block h-20 tablet:h-17 w-300 rounded-10;
+}

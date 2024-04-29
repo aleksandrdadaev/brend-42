@@ -1,0 +1,11 @@
+.wrapper {
+	@apply flex items-end justify-between tablet:flex-col tablet:gap-15;
+
+	> button {
+		@apply tablet:p-15;
+	}
+}
+
+.list {
+	@apply w-730 flex flex-col gap-15 tablet:w-full;
+}

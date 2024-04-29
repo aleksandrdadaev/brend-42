@@ -1,0 +1,8 @@
+.wrapper {
+	> section:first-child {
+		@apply mb-40;
+	}
+	> section:last-child > div:first-child {
+		@apply laptop:grid-cols-2 laptop:w-full;
+	}
+}

@@ -1,0 +1,5 @@
+.page {
+	> section:first-child {
+		@apply mb-50 tablet:mb-25;
+	}
+}

@@ -1,0 +1,15 @@
+.wrapper {
+	@apply mb-10 tablet:mb-5;
+}
+
+.ul {
+	@apply flex gap-5 T4 tablet:T4-mobile tablet:gap-3;
+
+	.item {
+		@apply text-gray-500 block;
+
+		&.active {
+			@apply text-black;
+		}
+	}
+}

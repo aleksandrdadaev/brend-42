@@ -1,0 +1,14 @@
+.wrapper {
+	@apply flex-block;
+}
+.right {
+	@apply w-full flex flex-col gap-30 tablet:gap-15 items-end;
+
+	> button {
+		@apply tablet:py-15;
+	}
+}
+
+.list {
+	@apply w-full grid grid-cols-2 mobile:grid-cols-1 gap-y-20 laptop:gap-y-10 gap-x-10 laptop:gap-x-15 tablet:gap-x-10;
+}

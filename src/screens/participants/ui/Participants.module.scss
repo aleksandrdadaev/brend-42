@@ -1,0 +1,5 @@
+.wrapper {
+	> section:nth-child(3) {
+		@apply border-bottom;
+	}
+}

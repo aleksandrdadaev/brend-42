@@ -1,0 +1,11 @@
+.wrapper {
+	@apply flex items-center gap-30 justify-end tablet:gap-10 mobile:flex-col mobile:items-start;
+}
+
+.email {
+	@apply link;
+}
+
+.icon {
+	@apply hover:scale-110;
+}

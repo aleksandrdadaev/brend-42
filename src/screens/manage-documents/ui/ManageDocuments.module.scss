@@ -1,0 +1,13 @@
+.wrapper {
+	@apply grid grid-cols-3  gap-40;
+	grid-template-rows: repeat(2, 300px);
+	> section {
+		> form {
+			@apply flex flex-col gap-20;
+
+			input {
+				@apply border-none;
+			}
+		}
+	}
+}

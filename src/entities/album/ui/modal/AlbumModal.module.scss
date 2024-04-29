@@ -1,0 +1,13 @@
+.modal {
+	@apply fixed top-0 left-0 w-screen h-screen z-3 flex justify-center items-center;
+
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.wrapper {
+	@apply relative w-800 tablet:w-600 mobile:w-[calc(100%-20px)] flex flex-col gap-10 rounded-10 overflow-hidden bg-white;
+}
+
+.close {
+	@apply absolute top-15 tablet:top-10 right-15 tablet:right-10 z-1;
+}

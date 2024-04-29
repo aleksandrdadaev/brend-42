@@ -1,0 +1,21 @@
+.body {
+	grid-template-columns: auto 1fr;
+	grid-template-rows: auto 1fr;
+	@apply h-screen grid gap-20;
+
+	> header {
+		@apply col-span-full;
+	}
+
+	> main {
+		@apply overflow-y-auto p-20;
+
+		> section {
+			@apply rounded-10 box-shadow bg-white p-20;
+
+			> h2 {
+				@apply w-fit mb-20;
+			}
+		}
+	}
+}

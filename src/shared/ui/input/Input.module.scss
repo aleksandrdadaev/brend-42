@@ -1,0 +1,19 @@
+.label {
+	@apply flex flex-col gap-4 text-black w-full;
+
+	> span {
+		@apply T3;
+	}
+
+	> input {
+		@apply T2 text-black border-b border-gray-200 focus:border-black transition-colors pb-3;
+	}
+
+	> input[type='checkbox'] {
+		@apply w-fit;
+	}
+}
+
+.error {
+	@apply text-coral;
+}

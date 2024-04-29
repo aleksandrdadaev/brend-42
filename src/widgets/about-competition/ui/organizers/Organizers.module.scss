@@ -1,0 +1,7 @@
+.title {
+	@apply T3 mb-25 tablet:T3-mobile tablet:mb-20;
+}
+
+.list {
+	@apply grid grid-cols-2 gap-15 laptop:grid-cols-1 laptop:gap-10;
+}

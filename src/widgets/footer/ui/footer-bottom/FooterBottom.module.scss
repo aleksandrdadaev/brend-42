@@ -1,0 +1,12 @@
+.bottom {
+	@apply flex justify-between items-center tablet:grid tablet:gap-y-5 tablet:gap-x-10 mobile:flex mobile:flex-col mobile:gap-5 mobile:items-start;
+	grid-template-columns: 1fr max-content;
+
+	> span {
+		@apply block shrink-0 T4 tablet:T4-mobile;
+	}
+
+	> div {
+		@apply tablet:order-1 mobile:order-none;
+	}
+}

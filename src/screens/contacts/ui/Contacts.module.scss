@@ -1,0 +1,12 @@
+.page {
+	> section:nth-child(2) {
+		@apply mb-50 tablet:mb-25;
+	}
+}
+
+.text {
+	@apply mb-30;
+	> span {
+		@apply T3 tablet:T3-mobile;
+	}
+}

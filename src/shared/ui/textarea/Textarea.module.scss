@@ -1,0 +1,15 @@
+.label {
+	@apply flex flex-col gap-4 text-black w-full;
+
+	> span {
+		@apply T3;
+	}
+
+	> textarea {
+		@apply T3 text-black border rounded-10 border-gray-200 focus:border-black transition-colors p-10 resize-none;
+	}
+}
+
+.error {
+	@apply text-coral;
+}

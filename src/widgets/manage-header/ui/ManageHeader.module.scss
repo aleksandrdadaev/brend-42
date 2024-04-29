@@ -1,0 +1,8 @@
+.header {
+	@apply p-20 flex justify-between box-shadow;
+
+	> a,
+	button {
+		@apply T3 button;
+	}
+}

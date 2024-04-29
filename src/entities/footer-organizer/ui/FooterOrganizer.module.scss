@@ -1,0 +1,15 @@
+.wrapper {
+	@apply flex items-center gap-5;
+}
+
+.img {
+	@apply relative shrink-0 w-52 h-52;
+
+	> img {
+		@apply img-object-contain;
+	}
+}
+
+.title {
+	@apply T3 tablet:T3-mobile;
+}

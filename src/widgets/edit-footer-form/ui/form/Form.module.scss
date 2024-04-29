@@ -1,0 +1,7 @@
+.form {
+	@apply flex gap-20;
+
+	> button {
+		@apply h-fit;
+	}
+}

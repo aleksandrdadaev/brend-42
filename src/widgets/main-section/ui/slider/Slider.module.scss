@@ -1,0 +1,11 @@
+.slider {
+	@apply absolute top-0 left-0 w-full h-full #{!important};
+
+	> div:first-child {
+		@apply h-full;
+	}
+}
+
+.slide {
+	@apply w-full h-full;
+}

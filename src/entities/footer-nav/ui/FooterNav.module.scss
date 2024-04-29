@@ -1,0 +1,6 @@
+.nav {
+	@apply flex flex-col gap-15 tablet:gap-10;
+	> li {
+		@apply T3 tablet:T3-mobile;
+	}
+}

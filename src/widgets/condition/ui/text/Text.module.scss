@@ -1,0 +1,21 @@
+.wrapper {
+	@apply w-full flex flex-col gap-40 laptop:gap-30 tablet:gap-15;
+}
+
+.text {
+	@apply w-full T3  tablet:T3-mobile;
+}
+
+.link {
+	@apply w-fit flex gap-5 items-center T3 tablet:T3-mobile text-blue;
+
+	&:hover {
+		> img {
+			@apply scale-110;
+		}
+	}
+
+	> img {
+		@apply w-24 h-24 transition-transform;
+	}
+}

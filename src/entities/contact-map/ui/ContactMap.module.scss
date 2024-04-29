@@ -1,0 +1,15 @@
+.wrapper {
+	@apply flex flex-col gap-20 tablet:gap-15;
+}
+
+.contacts {
+	@apply pl-270 flex justify-between laptop:pl-100 tablet:pl-0 tablet:gap-10 mobile:flex-col;
+}
+
+.tel {
+	@apply link shrink-0;
+}
+
+.map {
+	@apply w-full h-600 tablet:h-450;
+}

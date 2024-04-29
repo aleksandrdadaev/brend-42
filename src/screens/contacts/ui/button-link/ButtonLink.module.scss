@@ -1,0 +1,7 @@
+.wrapper {
+	@apply flex justify-end;
+
+	> a {
+		@apply tablet:py-15;
+	}
+}

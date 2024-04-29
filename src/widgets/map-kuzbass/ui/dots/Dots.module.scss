@@ -1,0 +1,111 @@
+.dots {
+	@apply absolute h-full w-full pointer-events-none text-white;
+
+	> span:nth-child(1) {
+		@apply top-167 left-104 tablet:top-134 tablet:left-82;
+	}
+
+	> span:nth-child(2) {
+		@apply top-363 left-190 tablet:top-292 tablet:left-150;
+	}
+
+	> span:nth-child(3) {
+		@apply top-87 left-110 tablet:top-70 tablet:left-87;
+	}
+
+	> span:nth-child(4) {
+		@apply top-135 left-113 tablet:top-108 tablet:left-91;
+	}
+
+	> span:nth-child(5) {
+		@apply top-406 left-193 tablet:top-325 tablet:left-153;
+	}
+
+	> span:nth-child(6) {
+		@apply top-332 left-151 tablet:top-266 tablet:left-121;
+	}
+
+	> span:nth-child(7) {
+		@apply top-392 left-194 tablet:top-315 tablet:left-153;
+	}
+
+	> span:nth-child(8) {
+		@apply top-360 left-243 tablet:top-289 tablet:left-193;
+	}
+
+	> span:nth-child(9) {
+		@apply top-271 left-167 tablet:top-217 tablet:left-134;
+	}
+
+	> span:nth-child(10) {
+		@apply top-482 left-239 tablet:top-384 tablet:left-190;
+	}
+
+	> span:nth-child(11) {
+		@apply top-124 left-24 tablet:top-99 tablet:left-19;
+	}
+
+	> span:nth-child(12) {
+		@apply top-63 left-231 tablet:top-51 tablet:left-185;
+	}
+
+	> span:nth-child(13) {
+		@apply top-298 left-141 tablet:top-239 tablet:left-112;
+	}
+
+	> span:nth-child(14) {
+		@apply top-319 left-102 tablet:top-255 tablet:left-82;
+	}
+
+	> span:nth-child(15) {
+		@apply top-257 left-124 tablet:top-207 tablet:left-99;
+	}
+
+	> span:nth-child(16) {
+		@apply top-365 left-147 tablet:top-293 tablet:left-119;
+	}
+
+	> span:nth-child(17) {
+		@apply top-333 left-240 tablet:top-268 tablet:left-194;
+	}
+}
+
+.taiga {
+	@apply top-91 left-78 tablet:top-74 tablet:left-61;
+}
+
+.yashkino {
+	@apply top-119 left-64 tablet:top-97 tablet:left-52;
+}
+
+.yaya {
+	@apply top-71 left-133 tablet:top-57 tablet:left-107;
+}
+
+.izhmorskij {
+	@apply top-79 left-155 tablet:top-64 tablet:left-124;
+}
+
+.krapivinskij {
+	@apply top-225 left-153 tablet:top-180 tablet:left-122;
+}
+
+.promyshlennaya {
+	@apply top-233 left-85 tablet:top-186 tablet:left-68;
+}
+
+.tisul {
+	@apply top-150 left-265 tablet:top-120 tablet:left-211;
+}
+
+.topki {
+	@apply top-200 left-74 tablet:top-161 tablet:left-58;
+}
+
+.tyazhinskij {
+	@apply top-81 left-286 tablet:top-65 tablet:left-228;
+}
+
+.chebulinskij {
+	@apply top-103 left-217 tablet:top-82 tablet:left-173;
+}

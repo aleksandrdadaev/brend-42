@@ -1,0 +1,50 @@
+.background {
+	background-color: #838383;
+	@apply h-680  mb-160 laptop:px-20 tablet:h-580  tablet:mb-80 tablet:px-10 mobile:mb-65;
+	@apply relative w-full mx-0 #{!important};
+
+	.content {
+		@apply w-1200 h-full mx-auto pt-150 laptop:w-full tablet:pt-100 flex mobile:flex-col gap-30 laptop:gap-0;
+	}
+}
+
+.title {
+	@apply relative shrink-0 w-730 tablet:w-300 mobile:w-full text-primary #{!important};
+	text-shadow:
+		-0 -2px 0 #ffffff,
+		0 -2px 0 #ffffff,
+		-0 2px 0 #ffffff,
+		0 2px 0 #ffffff,
+		-2px -0 0 #ffffff,
+		2px -0 0 #ffffff,
+		-2px 0 0 #ffffff,
+		2px 0 0 #ffffff,
+		-1px -2px 0 #ffffff,
+		1px -2px 0 #ffffff,
+		-1px 2px 0 #ffffff,
+		1px 2px 0 #ffffff,
+		-2px -1px 0 #ffffff,
+		2px -1px 0 #ffffff,
+		-2px 1px 0 #ffffff,
+		2px 1px 0 #ffffff,
+		-2px -2px 0 #ffffff,
+		2px -2px 0 #ffffff,
+		-2px 2px 0 #ffffff,
+		2px 2px 0 #ffffff,
+		-2px -2px 0 #ffffff,
+		2px -2px 0 #ffffff,
+		-2px 2px 0 #ffffff,
+		2px 2px 0 #ffffff;
+}
+
+.right {
+	@apply w-full flex laptop:justify-center tablet:pt-50;
+}
+
+.img {
+	@apply relative  overflow-hidden w-300 laptop:w-250 tablet:w-200 mobile:w-150 h-300 laptop:h-250 tablet:h-200 mobile:h-150;
+
+	> img {
+		@apply img-object-contain;
+	}
+}

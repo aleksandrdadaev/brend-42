@@ -1,0 +1,12 @@
+.wrapper {
+	@apply relative cursor-pointer p-10 pt-50 rounded-10 flex flex-col justify-end items-center bg-blue transition-colors;
+}
+
+.text {
+	@apply T3 text-white tablet:T3-mobile;
+}
+
+.position {
+	@apply absolute block -top-5 left-1/2 -translate-x-1/2 w-50 py-5 px-10 rounded-b-10 bg-primary H2 text-center transition-colors;
+	transition: background-color 0.3s ease;
+}

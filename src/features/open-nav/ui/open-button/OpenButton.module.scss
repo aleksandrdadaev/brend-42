@@ -1,0 +1,7 @@
+.button {
+	@apply tablet:p-16 #{!important};
+}
+
+.open {
+	@apply bg-gray-200;
+}

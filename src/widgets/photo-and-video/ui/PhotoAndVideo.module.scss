@@ -1,0 +1,11 @@
+.section {
+	@apply border-bottom flex-block;
+}
+
+.content {
+	@apply w-full flex flex-col gap-40 tablet:gap-20;
+
+	> button {
+		@apply w-fit self-end mobile:w-full;
+	}
+}

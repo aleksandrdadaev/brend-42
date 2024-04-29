@@ -1,0 +1,11 @@
+.form {
+	@apply flex flex-col gap-20;
+}
+
+.fields {
+	@apply flex gap-20;
+}
+
+.left {
+	@apply flex flex-col gap-20 w-520 shrink-0;
+}

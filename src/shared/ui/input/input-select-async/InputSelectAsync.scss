@@ -1,0 +1,20 @@
+.custom-select {
+	&__control {
+		@apply rounded-10 cursor-pointer #{!important};
+
+		&--is-focused {
+			@apply border-primary shadow-none #{!important};
+		}
+	}
+
+	&__option {
+		@apply cursor-pointer #{!important};
+		&--is-focused {
+			@apply bg-primary bg-opacity-50 #{!important};
+		}
+
+		&--is-selected {
+			@apply bg-primary #{!important};
+		}
+	}
+}

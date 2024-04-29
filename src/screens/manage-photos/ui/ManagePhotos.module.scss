@@ -1,0 +1,9 @@
+.wrapper {
+	> section:first-child {
+		@apply mb-40;
+	}
+
+	> section:last-child {
+		@apply border-none m-0;
+	}
+}

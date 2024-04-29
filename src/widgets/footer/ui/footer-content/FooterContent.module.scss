@@ -1,0 +1,12 @@
+.content {
+	@apply flex justify-between mb-100 tablet:mb-50 tablet:grid tablet:grid-cols-2 tablet:gap-y-30 tablet:gap-x-90 mobile:mb-26 mobile:flex mobile:flex-col mobile:gap-30;
+
+	> div:first-child {
+		@apply tablet:col-span-full;
+	}
+
+	> nav,
+	> div:last-child {
+		@apply shrink-0;
+	}
+}

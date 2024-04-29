@@ -1,0 +1,4 @@
+.wrapper {
+	@apply fixed z-2 top-0 left-0 w-screen h-screen flex justify-center items-center;
+	background-color: rgba(0, 0, 0, 0.1);
+}

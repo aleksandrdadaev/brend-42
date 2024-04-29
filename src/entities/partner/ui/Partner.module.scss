@@ -1,0 +1,27 @@
+.wrapper {
+	@apply box-shadow relative cursor-pointer rounded-10 pb-10 overflow-hidden flex flex-col gap-5 transition-colors;
+
+	&:hover {
+		@apply bg-primary;
+
+		.text {
+			@apply text-black;
+		}
+	}
+}
+
+.img {
+	@apply relative w-full aspect-4/3 rounded-10 overflow-hidden bg-gray-200;
+
+	> img {
+		@apply img-object-cover;
+	}
+}
+
+.text {
+	@apply T4 tablet:T4-mobile px-10  text-gray-300 transition-colors;
+}
+
+.title {
+	@apply text-black;
+}

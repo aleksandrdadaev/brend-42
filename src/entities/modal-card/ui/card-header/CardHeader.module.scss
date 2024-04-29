@@ -1,0 +1,19 @@
+.header {
+	@apply flex flex-col gap-10 pb-12 mb-10 tablet:pb-15;
+
+	> h2 {
+		@apply w-auto;
+	}
+}
+
+.img {
+	@apply w-150 h-150 relative rounded-circle overflow-hidden bg-white;
+
+	> img {
+		@apply img-object-contain;
+	}
+}
+
+.title {
+	@apply H3 tablet:H3-mobile;
+}

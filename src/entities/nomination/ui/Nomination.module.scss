@@ -1,0 +1,49 @@
+.nomination {
+	@apply relative cursor-pointer;
+}
+
+.front,
+.back {
+	@apply flex flex-col items-center overflow-hidden absolute w-full h-full p-10 rounded-10 box-shadow;
+	backface-visibility: hidden;
+}
+
+.front {
+	@apply bg-orange gap-15;
+}
+.back {
+	@apply bg-white justify-between gap-5;
+
+	[data-tooltip] {
+		@apply relative;
+	}
+
+	[data-tooltip]::after {
+		content: attr(data-tooltip);
+		@apply absolute -top-[calc(100%+10px)] left-1/2 -translate-x-1/2 w-max pointer-events-none opacity-0 transition-opacity bg-gray-100 rounded-10 z-1 p-5;
+	}
+
+	[data-tooltip]:hover::after {
+		opacity: 1;
+	}
+}
+
+.logoWrapper {
+	@apply w-80 h-80 rounded-circle bg-white flex justify-center items-center tablet:w-40 tablet:h-40;
+}
+
+.logo {
+	@apply w-50 h-52 tablet:w-25 tablet:h-26;
+}
+
+.title {
+	@apply T2 text-center tablet:T2-mobile;
+}
+
+.description {
+	@apply T3 tablet:T3-mobile w-full  line-clamp-14;
+}
+
+.download {
+	@apply w-26 h-26;
+}

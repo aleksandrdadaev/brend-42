@@ -1,0 +1,12 @@
+.point {
+	@apply absolute flex T4 items-end tablet:T4-mobile;
+	@apply font-black leading-none;
+}
+
+.img {
+	@apply relative w-24 h-30 tablet:h-24 tablet:w-20;
+
+	> img {
+		@apply img-object-cover;
+	}
+}

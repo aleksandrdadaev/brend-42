@@ -1,0 +1,7 @@
+.item {
+	@apply T1 hover:text-gray-200 transition-colors block tablet:T1-mobile;
+}
+
+.active {
+	@apply text-primary;
+}

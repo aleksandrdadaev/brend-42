@@ -1,0 +1,9 @@
+.wrapper {
+	> span:first-child {
+		@apply w-150 h-22  tablet:h-20 tablet:w-130;
+	}
+
+	> span:last-child {
+		@apply w-24 h-24;
+	}
+}

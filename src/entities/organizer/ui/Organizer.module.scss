@@ -1,0 +1,15 @@
+.organizer {
+	@apply cursor-pointer relative w-full bg-white  p-20 pr-10 rounded-10 box-shadow flex gap-30 items-center tablet:p-10 tablet:gap-10;
+}
+
+.img {
+	@apply relative shrink-0 w-80 h-80 tablet:w-40 tablet:h-40;
+
+	> img {
+		@apply img-object-contain;
+	}
+}
+
+.title {
+	@apply T2 tablet:T2-mobile;
+}

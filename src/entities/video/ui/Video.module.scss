@@ -1,0 +1,11 @@
+.wrapper {
+	@apply relative flex flex-col gap-5 items-center;
+}
+
+.video {
+	@apply w-full aspect-video rounded-10 overflow-hidden;
+}
+
+.caption {
+	@apply T4 text-center tablet:T4-mobile;
+}

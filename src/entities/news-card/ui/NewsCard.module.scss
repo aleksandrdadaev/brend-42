@@ -1,0 +1,16 @@
+.card {
+	@apply relative w-full pt-15 tablet:pt-10 mobile:pt-15 border-t cursor-pointer flex flex-col gap-10 hover:border-black transition-colors;
+	border-color: #d9d9d9;
+}
+
+.text {
+	@apply flex-block  tablet:gap-5 text-gray-400 transition-colors hover:text-black;
+}
+
+.date {
+	@apply w-190 shrink-0 T4 tablet:T4-mobile;
+}
+
+.title {
+	@apply w-full H2 tablet:H2-mobile;
+}

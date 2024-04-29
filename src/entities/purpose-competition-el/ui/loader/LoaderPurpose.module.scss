@@ -1,0 +1,6 @@
+.wrapper {
+	@apply p-0 shadow-none;
+}
+.container {
+	@apply h-120 w-full tablet:h-80 mobile:h-160;
+}

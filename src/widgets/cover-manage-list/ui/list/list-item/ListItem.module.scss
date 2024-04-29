@@ -1,0 +1,10 @@
+.wrapper {
+	@apply relative w-full;
+}
+.img {
+	@apply relative w-full aspect-video rounded-10 overflow-hidden;
+
+	> img {
+		@apply img-object-cover;
+	}
+}

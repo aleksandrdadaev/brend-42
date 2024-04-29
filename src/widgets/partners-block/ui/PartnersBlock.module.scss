@@ -1,0 +1,7 @@
+.wrapper {
+	@apply pl-270 tablet:p-0;
+}
+
+.list {
+	@apply w-full laptop:w-460 tablet:w-full grid grid-cols-2 laptop:grid-cols-1 tablet:grid-cols-2 mobile:grid-cols-1 gap-y-20 tablet:gap-y-10 gap-x-10;
+}

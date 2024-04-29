@@ -1,0 +1,43 @@
+.wrapper {
+	@apply cursor-pointer relative p-25 flex flex-col items-center border rounded-10;
+}
+
+.imgWrapper {
+	@apply absolute w-70 h-50 flex items-center justify-center left-1/2 top-0 -translate-y-1/2 -translate-x-1/2 bg-white tablet:w-45 tablet:h-25;
+}
+
+.img {
+	@apply relative w-50 h-50 tablet:w-25 tablet:h-25;
+
+	> img {
+		@apply img-object-cover;
+	}
+}
+
+.postscript {
+	@apply T1 mr-20 tablet:T1-mobile tablet:mr-10;
+}
+
+.text {
+	@apply T1 tablet:T1-mobile;
+}
+
+.value {
+	@apply font-black text-contest tablet:text-contest-mobile;
+}
+
+.default {
+	@apply border-gray-300 text-gray-300;
+}
+
+.blue {
+	@apply border-blue text-blue;
+}
+
+.orange {
+	@apply border-orange text-orange;
+}
+
+.green {
+	@apply border-primary text-primary;
+}

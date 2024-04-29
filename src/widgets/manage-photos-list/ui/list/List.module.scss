@@ -1,0 +1,11 @@
+.list {
+	@apply grid grid-cols-5 gap-15;
+}
+
+.img {
+	@apply relative w-full aspect-video rounded-10 overflow-hidden;
+}
+
+.loading {
+	@apply T2;
+}

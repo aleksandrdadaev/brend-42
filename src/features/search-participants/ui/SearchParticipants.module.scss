@@ -1,0 +1,11 @@
+.wrapper {
+	@apply w-full h-52 bg-gray-100 rounded-50 flex overflow-hidden tablet:h-50 hover:bg-gray-200 transition-colors;
+}
+
+.input {
+	@apply w-full p-16 T2  placeholder:text-gray-500 tablet:T2-mobile;
+}
+
+.icon {
+	@apply button shrink-0 tablet:p-15 mobile:w-fit;
+}

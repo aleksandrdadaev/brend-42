@@ -1,0 +1,11 @@
+.contacts {
+	@apply flex gap-15 items-center tablet:flex-col-reverse;
+
+	.loader {
+		@apply rounded-circle;
+	}
+}
+
+.icon {
+	@apply tablet:w-44 tablet:h-44 #{!important};
+}

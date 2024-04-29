@@ -1,0 +1,21 @@
+.button {
+	@apply z-1 block relative w-20 h-20 hover:scale-125 transition-transform;
+
+	> img {
+		@apply img-object-cover;
+	}
+}
+
+.delete {
+	> img {
+		filter: brightness(0) saturate(100%) invert(39%) sepia(42%) saturate(4868%)
+			hue-rotate(340deg) brightness(102%) contrast(104%);
+	}
+}
+
+.edit {
+	> img {
+		filter: brightness(0) saturate(100%) invert(80%) sepia(56%) saturate(2577%)
+			hue-rotate(336deg) brightness(89%) contrast(92%);
+	}
+}

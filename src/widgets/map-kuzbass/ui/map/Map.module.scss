@@ -1,0 +1,19 @@
+.wrapper {
+	@apply relative w-full h-full flex justify-center mobile:h-480;
+}
+
+.map {
+	@apply relative h-full;
+}
+
+.svg {
+	@apply h-full;
+}
+
+.loading {
+	@apply H3 self-center;
+}
+
+.firstPath {
+	filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
+}

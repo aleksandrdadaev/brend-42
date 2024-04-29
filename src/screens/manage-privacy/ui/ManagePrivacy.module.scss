@@ -1,0 +1,8 @@
+.wrapper {
+	@apply flex flex-col gap-40;
+	> section {
+		> form {
+			@apply flex flex-col gap-20;
+		}
+	}
+}

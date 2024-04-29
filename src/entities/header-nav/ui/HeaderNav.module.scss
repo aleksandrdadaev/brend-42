@@ -1,0 +1,4 @@
+.nav {
+	@apply absolute z-1 left-0 bg-white box-shadow w-full rounded-36 py-40 flex flex-col items-center gap-30 tablet:py-20 tablet:gap-15;
+	top: calc(100% + 10px);
+}

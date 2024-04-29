@@ -1,0 +1,11 @@
+.wrapper {
+	@apply flex justify-center;
+}
+
+.form {
+	@apply bg-gray-100 h-fit w-600 relative mobile:w-full;
+
+	> div > div > div {
+		@apply mx-0 max-w-full;
+	}
+}

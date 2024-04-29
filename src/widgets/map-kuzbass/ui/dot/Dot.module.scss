@@ -1,0 +1,11 @@
+.wrapper {
+	@apply absolute h-fit flex items-end text-12 tablet:text-9 leading-18 tablet:leading-14;
+}
+
+.vertical {
+	@apply flex-col-reverse items-center;
+}
+
+.dot {
+	@apply w-10 h-10 tablet:w-8 tablet:h-8;
+}

@@ -1,0 +1,7 @@
+.img {
+	@apply w-full h-full brightness-75;
+
+	> img {
+		@apply img-object-cover;
+	}
+}

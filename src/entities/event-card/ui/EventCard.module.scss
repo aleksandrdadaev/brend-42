@@ -1,0 +1,25 @@
+.card {
+	@apply cursor-pointer p-10 rounded-10 flex flex-col gap-10 relative box-shadow transition-colors;
+
+	&:hover {
+		@apply bg-white;
+	}
+
+	&:not(:hover) {
+		.date {
+			@apply bg-white;
+		}
+	}
+}
+
+.title {
+	@apply T1 tablet:T1-mobile;
+}
+
+.description {
+	@apply T3 grow mb-5 tablet:T3-mobile;
+}
+
+.date {
+	@apply block rounded-5 transition-colors  w-fit max-w-full p-5 truncate T4 tablet:T4-mobile;
+}

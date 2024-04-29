@@ -1,0 +1,26 @@
+.wrapper {
+	@apply relative rounded-10 w-full flex flex-col gap-5;
+
+	&:hover {
+		@apply box-shadow;
+	}
+}
+
+.top {
+	@apply relative w-full aspect-square rounded-10  overflow-hidden flex flex-col justify-end py-30 tablet:py-15 px-15 bg-gray-200;
+}
+
+.title {
+	@apply T4 tablet:T4-mobile text-black text-center;
+}
+
+.img {
+	@apply absolute top-0 left-0  w-full h-full;
+	> img {
+		@apply img-object-cover;
+	}
+}
+
+.link {
+	@apply z-1 button T3 tablet:T3-mobile tablet:w-full tablet:py-15;
+}

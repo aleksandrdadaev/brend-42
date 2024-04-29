@@ -1,0 +1,18 @@
+.path {
+	@apply opacity-75  cursor-pointer transition-all;
+
+	&:not(.active):hover {
+		@apply opacity-100;
+	}
+}
+
+.active {
+	@apply cursor-default;
+	animation: pulse2 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse2 {
+	50% {
+		@apply opacity-100;
+	}
+}

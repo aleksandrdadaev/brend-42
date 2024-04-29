@@ -1,0 +1,7 @@
+.img {
+	@apply relative w-full aspect-video;
+
+	> img {
+		@apply img-object-cover;
+	}
+}

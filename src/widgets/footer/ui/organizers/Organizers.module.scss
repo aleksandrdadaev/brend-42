@@ -1,0 +1,7 @@
+.list {
+	@apply flex flex-col gap-25 tablet:flex-row tablet:gap-15 mobile:flex-col mobile:gap-20;
+
+	> div:first-child {
+		@apply shrink-0;
+	}
+}

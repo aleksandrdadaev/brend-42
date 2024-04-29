@@ -1,0 +1,23 @@
+.card {
+	@apply w-full rounded-10 bg-gray-100 p-20 tablet:py-10 tablet:px-15 flex flex-col gap-10 cursor-pointer;
+}
+
+.header {
+	@apply flex gap-10 items-center mb-12 tablet:mb-0;
+}
+
+.img {
+	@apply relative w-46 tablet:w-40 h-46 tablet:h-40 rounded-circle overflow-hidden shrink-0 bg-white;
+
+	> img {
+		@apply img-object-contain;
+	}
+}
+
+.title {
+	@apply H3 tablet:H3-mobile w-full truncate;
+}
+
+.company {
+	@apply w-full T4 tablet:T4-mobile truncate;
+}

@@ -1,0 +1,15 @@
+body {
+	@apply flex flex-col items-center min-h-screen;
+
+	> header {
+		@apply fixed top-20 z-2 laptop:left-20 laptop:right-20 tablet:top-10 mobile:left-10 mobile:right-10;
+	}
+
+	> main {
+		@apply grow mt-120 w-full tablet:mt-86 mb-150 tablet:mb-75;
+
+		> section {
+			@apply margin-section;
+		}
+	}
+}

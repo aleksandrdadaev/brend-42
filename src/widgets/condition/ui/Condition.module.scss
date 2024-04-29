@@ -1,0 +1,11 @@
+.wrapper {
+	@apply flex-block border-bottom;
+}
+
+.content {
+	@apply w-full flex laptop:flex-col items-end gap-90 laptop:gap-40 tablet:gap-20;
+}
+
+.button {
+	@apply tablet:p-15;
+}

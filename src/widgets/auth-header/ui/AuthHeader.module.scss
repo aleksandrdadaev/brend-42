@@ -1,0 +1,7 @@
+.header {
+	@apply w-full p-20;
+
+	> a {
+		@apply link T1;
+	}
+}

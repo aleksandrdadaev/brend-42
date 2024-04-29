@@ -1,0 +1,38 @@
+.title {
+	@apply absolute flex justify-center font-black text-white laptop:text-center laptop:w-full laptop:left-0;
+	font-size: 245px;
+	line-height: 297px;
+	letter-spacing: -14.7px;
+	bottom: -78px;
+}
+
+@media (max-width: 1599px) {
+	.title {
+		font-size: 200px;
+		line-height: 242px;
+		letter-spacing: -12px;
+		bottom: -67px;
+	}
+}
+
+@media (max-width: 999px) {
+	.title {
+		font-size: 125px;
+		line-height: 151px;
+		letter-spacing: -7.5px;
+		bottom: -42px;
+	}
+}
+
+@media (max-width: 639px) {
+	.title {
+		font-size: 62px;
+		line-height: 75px;
+		letter-spacing: -3.72px;
+		bottom: -25px;
+	}
+}
+
+.span {
+	@apply block w-fit;
+}

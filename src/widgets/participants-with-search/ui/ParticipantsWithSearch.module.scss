@@ -1,0 +1,19 @@
+.wrapper {
+	@apply flex gap-80 tablet:flex-col tablet:gap-20;
+}
+
+.contentWrapper {
+	@apply w-full;
+}
+
+.content {
+	@apply w-full flex flex-col gap-30 tablet:gap-15;
+}
+
+.management {
+	@apply w-full flex items-center gap-5;
+}
+
+.notFound {
+	@apply w-full text-center T2 tablet:T2-mobile;
+}

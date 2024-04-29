@@ -1,0 +1,11 @@
+.thumb {
+	@apply brightness-75 transition-all;
+}
+
+.img {
+	@apply relative w-full aspect-video rounded-10 overflow-hidden;
+
+	> img {
+		@apply img-object-cover;
+	}
+}

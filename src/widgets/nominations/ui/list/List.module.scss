@@ -1,0 +1,30 @@
+.list {
+	@apply w-full grid grid-cols-3 gap-x-15 gap-y-30 laptop:grid-cols-2 laptop:gap-y-20 tablet:gap-10 mobile:grid-cols-1;
+
+	> article:nth-child(3n + 2) {
+		> div:first-child {
+			@apply bg-blue;
+			> div > img {
+				filter: brightness(0) saturate(100%) invert(76%) sepia(7%)
+					saturate(7053%) hue-rotate(179deg) brightness(90%) contrast(92%);
+			}
+		}
+	}
+	> article:nth-child(3n + 3) {
+		> div:first-child {
+			@apply bg-primary;
+			> div > img {
+				filter: brightness(0) saturate(100%) invert(74%) sepia(55%)
+					saturate(496%) hue-rotate(27deg) brightness(89%) contrast(89%);
+			}
+		}
+	}
+}
+
+.link {
+	@apply col-span-full flex justify-end laptop:col-auto laptop:items-end mobile:mt-5;
+
+	> a {
+		@apply button T3 tablet:T3-mobile shrink-0 h-fit tablet:w-full;
+	}
+}

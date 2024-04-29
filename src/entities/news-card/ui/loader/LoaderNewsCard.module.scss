@@ -1,0 +1,11 @@
+.wrapper {
+	@apply flex-row tablet:flex-col;
+}
+
+.date {
+	@apply h-20 tablet:h-12;
+}
+
+.title {
+	@apply flex flex-col gap-12 mobile:gap-8;
+}

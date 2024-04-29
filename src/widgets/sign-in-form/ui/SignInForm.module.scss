@@ -1,0 +1,7 @@
+.form {
+	@apply w-300 flex flex-col items-center gap-20;
+}
+
+.send {
+	@apply button;
+}

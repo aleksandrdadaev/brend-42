@@ -1,0 +1,7 @@
+.wrapper {
+	@apply border-bottom border-bottom-alt flex-block;
+}
+
+.right {
+	@apply w-full mt-35 flex flex-col gap-80 tablet:mt-22 tablet:gap-40;
+}

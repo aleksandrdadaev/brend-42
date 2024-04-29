@@ -1,0 +1,7 @@
+.footer {
+	@apply relative overflow-hidden w-full rounded-t-36 pt-100 pb-30 laptop:px-20 tablet:pt-20 tablet:pb-15 tablet:rounded-t-18 mobile:px-10;
+
+	.footerInner {
+		@apply w-1200 mx-auto laptop:w-full laptop:m-0 text-white;
+	}
+}

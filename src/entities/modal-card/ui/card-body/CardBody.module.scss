@@ -1,0 +1,26 @@
+.body {
+	@apply px-5 flex flex-col gap-10;
+
+	> h3,
+	address {
+		@apply T4 pb-10 border-b border-b-gray-200 tablet:T4-mobile;
+	}
+}
+
+.description {
+	> div:first-child {
+		@apply w-full;
+
+		&::-webkit-scrollbar {
+			@apply w-0;
+		}
+
+		p {
+			@apply T3 tablet:T3-mobile whitespace-pre-line;
+		}
+	}
+}
+
+.track {
+	@apply hidden;
+}

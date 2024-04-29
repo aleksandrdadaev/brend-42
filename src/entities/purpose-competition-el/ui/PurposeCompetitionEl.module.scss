@@ -1,0 +1,17 @@
+.purpose {
+	@apply w-full cursor-pointer p-20 pr-10 rounded-10 box-shadow bg-white flex gap-30 items-center tablet:p-10 tablet:gap-5;
+
+	&:hover {
+		.text {
+			@apply text-orange;
+		}
+	}
+}
+
+.img {
+	@apply relative w-80 h-80 tablet:h-40 tablet:w-40;
+}
+
+.text {
+	@apply T3 tablet:T3-mobile;
+}
